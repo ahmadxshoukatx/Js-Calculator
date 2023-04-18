@@ -20,7 +20,7 @@ h2 {
 }
 button:hover {
   background-color: black;
-  color: white;
+  /* color: white; */
 }
 
 input[type="number"],
@@ -100,7 +100,43 @@ input{
    border: 1px solid black;
 
 }
-input:hover {
+#one:hover {
+  background-color: black;
+  color: white;
+}
+#two:hover {
+  background-color: black;
+  color: white;
+}
+#three:hover {
+  background-color: black;
+  color: white;
+}
+#four:hover {
+  background-color: black;
+  color: white;
+}
+#five:hover {
+  background-color: black;
+  color: white;
+}
+#six:hover {
+  background-color: black;
+  color: white;
+}
+#seven:hover {
+  background-color: black;
+  color: white;
+}
+#eight:hover {
+  background-color: black;
+  color: white;
+}
+#nine:hover {
+  background-color: black;
+  color: white;
+}
+#zero:hover {
   background-color: black;
   color: white;
 }
