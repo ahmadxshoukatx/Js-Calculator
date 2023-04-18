@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="calculator.css" />
+    <title>calculator</title>
+  </head>
+  <body>
+    <div>
+      <h2>Simple calculator</h2>
+      <input id="num1" class="a" type="text" placeholder="Number1" />
+      <br />
+      <input id="num2" type="text"class="b" placeholder="Number2" />
+      <br />
+      <input onclick="addvalue()" type="button"  id="one" value="1" ></input  >
+      <input onclick="addvalue()" type="button" id="two" value="2"></input>
+      <input onclick="addvalue()" type="button" id="three" value="3"></input>
+      <button id="div">/</button><br />
+      <input onclick="addvalue()" type="button" id="four" value="4"></input>
+      <input onclick="addvalue()" type="button" id="five" value="5"></input>
+      <input onclick="addvalue()" type="button" id="six" value="6"></input>
+      <button id="mul">*</button><br />
+      <input onclick="addvalue()" type="button" id="seven" value="7"></input>
+      <input onclick="addvalue()" type="button" id="eight" value="8"></input>
+      <input onclick="addvalue()" type="button" id="nine" value="9"></input>
+      <button id="add">+</button><br />
+      <input onclick="addvalue()" type="button" id="zero" value="0"></input>
+      <button id="sub">-</button>
+
+      <input id="result" type="number" readonly placeholder="Result"/>
+    </div>
+
+    <script src="calculator.js"></script>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+div {
+  border-radius: 1px solid red;
+  width: 300px;
+  margin: 45px auto;
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+button {
+  background: white;
+}
+
+h2 {
+  font-size: 24px;
+  border-end-end-radius: 1px 1px solid red;
+  margin-bottom: 20px;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+input[type="number"],
+button {
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  margin: 5px;
+  width: 50px;
+  color:black;
+  background-color: white;
+  border-radius: 3px;    border: 1px solid black;
+  cursor: pointer;
+}
+
+#equals {
+  background-color: #4caf50;
+  color: white;
+}
+body{
+  background: #eee;
+}
+#result {
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 5px;
+  width: 200px;
+  background-color: #fff;
+  border-radius: 3px;
+  text-align: center;
+}
+.divAll{
+  border: 1px solid #c91414;
+}
+#num1{
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 5px;
+  width: 200px;
+  background-color: #fff;
+  border-radius: 3px;
+  text-align: center;
+}
+#num2{
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 5px;
+  width: 200px;
+  background-color: #fff;
+  border-radius: 3px;
+  text-align: center;
+}
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+}
+#zero{
+  width: 178px;
+}
+#result{
+  width: 143px; 
+}
+input{
+  width: 50px;
+  height: 40px;
+  background: white;
+  cursor: pointer;
+  border-radius: 3px;    border: 1px solid black;
+
+
+
+}
+input:hover {
+  background-color: black;
+  color: white;
+}
