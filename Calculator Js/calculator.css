@@ -6,6 +6,7 @@ div {
   background-color: #f2f2f2;
   padding: 20px;
   border-radius: 5px;
+  box-shadow: 1px 1px 15px 3px;
 }
 
 button {
@@ -64,6 +65,8 @@ body{
   background-color: #fff;
   border-radius: 3px;
   text-align: center;
+  height: 20px;
+
 }
 #num2{
   font-size: 16px;
@@ -74,24 +77,27 @@ body{
   background-color: #fff;
   border-radius: 3px;
   text-align: center;
+  height: 20px;
+
 }
 h2{
   font-family: Arial, Helvetica, sans-serif;
 }
 #zero{
-  width: 178px;
+  width: 158px;
 }
 #result{
   width: 143px; 
+  height: 20px;
+
 }
 input{
   width: 50px;
   height: 40px;
   background: white;
   cursor: pointer;
-  border-radius: 3px;    border: 1px solid black;
-
-
+  border-radius: 3px;   
+   border: 1px solid black;
 
 }
 input:hover {
